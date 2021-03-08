@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+
+#players {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#results {
+    text-align: center;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+
+
+#rock {
+    height: 100px;
+    width: 100px;
+    font-weight: 800;
+    background-color: red;
+}
+
+#paper {
+    height: 100px;
+    width: 100px;
+    font-weight: 800;
+    background-color: white;
+}
+
+#scissors {
+    height: 100px;
+    width: 100px;
+    font-weight: 800;
+    background-color: blue;
+    color: white;
+}
